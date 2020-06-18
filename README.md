@@ -1,1 +1,2 @@
-# covid.io
+# mini-project.io
+# lakehub
