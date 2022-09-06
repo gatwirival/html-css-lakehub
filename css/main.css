@@ -33,6 +33,13 @@ img{
       display: inline-block;
       border-left:  black  solid;
       border-right:  black  solid;
+    //mobile
+    @media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 95%;
+  }
+}
   }
   .colright{   
       width: 25%;
