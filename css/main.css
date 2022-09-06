@@ -61,7 +61,6 @@ img{
      height: 240px;
   }
 
- //mobile
     @media only screen and (max-width: 768px) {
   /* For mobile phones: */
   [class*="col-"] {
