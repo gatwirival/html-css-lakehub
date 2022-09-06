@@ -33,12 +33,7 @@ img{
       display: inline-block;
       border-left:  black  solid;
       border-right:  black  solid;
-    //mobile
-    @media only screen and (max-width: 768px) {
-  /* For mobile phones: */
-  [class*="col-"] {
-    width: 95%;
-  }
+   
 }
   }
   .colright{   
@@ -64,4 +59,11 @@ img{
      list-style-type: none;
      padding-left: 0px;
      height: 240px;
+  }
+
+ //mobile
+    @media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 95%;
   }
